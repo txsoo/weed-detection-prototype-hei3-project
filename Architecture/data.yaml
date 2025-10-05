@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['Alligatorweed', 'Asiatic_Smartweed', 'Bidens pilosa', 'Black_nightshade', 'Ceylon spinach', 'Chinese_knotweed', 'Common Dayflower', 'Indian aster', 'Mock_strawberry', 'Shepherd_Purse', 'Viola', 'abutilon theophrasti', 'barnyard_grass', 'billygoat_weed', 'cocklebur', 'crabgrass', 'field_thistle', 'goosefoots', 'green_foxtail', 'horseweed', 'pigweed', 'plantain', 'purslane', 'sedge', 'white_smart_weed']
+
+roboflow:
+  workspace: weed25-dataset
+  project: weed25-labeling
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weed25-dataset/weed25-labeling/dataset/4
